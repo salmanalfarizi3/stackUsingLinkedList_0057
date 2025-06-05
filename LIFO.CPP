@@ -79,4 +79,27 @@ public:
             cout << "2. Pop\n";
             cout << "3. Peek\n";
             cout << "4. Exit\n";
-            
+            cout << "Enter your choice: ";
+            cin >> choice;
+        
+            switch (choice) {
+                case 1:
+                    cout << "Enter the value to push: ";
+                    cin >> value;
+                    stack.push(value); // Push the entered value onto the stack
+                    break;
+                // case-case lainnya belum terlihat di gambar
+                case 2:
+            stack.pop(); // Pop the top element from the stack
+            break;
+
+        case 3:
+            stack.peek(); // Get the value of the top element
+            break;
+
+        case 4:
+            cout << "Exiting program." << endl;
+            break;
+
+        
+     
