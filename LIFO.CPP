@@ -26,3 +26,19 @@ public:
     
     }
 
+    int push(int value)
+    {
+        Node *newNode = new Node();
+    }
+    
+        int push(int value)
+        {
+            Node *newNode = new Node();
+            newNode ->data = value;
+            newNode -> next top;
+            top = newNode;
+            cout << "Push value :" << value << endl;
+            retrun value;
+        }
+    
+        
